@@ -1,0 +1,350 @@
+body {
+    font: 1em Arial, sans-serif;
+}
+
+.top {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.top:hover {
+    background: transparent;
+    border: none;
+}
+
+/*ICONS*/
+.glyphicon-chevron-up {
+    color: #1abc9c;
+}
+
+[class*="ic-"] {
+    width: 50px;
+    height: 50px;
+    background: url("../img/sprite-1.png") 10px 10px no-repeat;
+    border: 1px solid #1abc9c;
+    border-radius: 4px;
+}
+
+.ic-1 {
+    background: url("../img/sprite-1.png") 10px 10px no-repeat;
+}
+
+.ic-2 {
+    background: url("../img/sprite-1.png") -35px 10px no-repeat;
+}
+
+.ic-3 {
+    background: url("../img/sprite-1.png") -80px 10px no-repeat;
+}
+
+.ic-4 {
+    background: url("../img/sprite-1.png") -124px 10px no-repeat;
+}
+
+.ic-5 {
+    background: url("../img/sprite-1.png") -165px 7px no-repeat;
+}
+
+.ic-6 {
+    background: url("../img/sprite-1.png") -207px 7px no-repeat;
+}
+
+.ic-7 {
+    background: url("../img/sprite-1.png") -247px 7px no-repeat;
+}
+
+.ic-8 {
+    background: url("../img/sprite-1.png") -292px 6px no-repeat;
+}
+
+.ic-9 {
+    background: url("../img/sprite-1.png") -340px 7px no-repeat;
+}
+
+.ic-10 {
+    background: #000 url("../img/sprite-1.png") 10px -70px no-repeat;
+    width: 85px;
+    height: 25px;
+    border-radius: 0;
+    border: none;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.ic-1:hover {
+    background: #1abc9c url("../img/sprite-1.png") 10px -30px no-repeat;
+}
+
+.ic-2:hover {
+    background: #1abc9c url("../img/sprite-1.png") -35px -30px no-repeat;
+}
+
+.ic-3:hover {
+    background: #1abc9c url("../img/sprite-1.png") -80px -30px no-repeat;
+}
+
+.ic-4:hover {
+    background: #1abc9c url("../img/sprite-1.png") -124px -30px no-repeat;
+}
+
+.ic-5:hover {
+    background: #1abc9c url("../img/sprite-1.png") -165px -33px no-repeat;
+}
+
+.ic-6:hover {
+    background: #1abc9c url("../img/sprite-1.png") -207px -34px no-repeat;
+}
+
+.ic-7:hover {
+    background: #1abc9c url("../img/sprite-1.png") -247px -34px no-repeat;
+}
+
+.ic-8:hover {
+    background: #1abc9c url("../img/sprite-1.png") -292px -36px no-repeat;
+}
+
+.ic-9:hover {
+    background: #1abc9c url("../img/sprite-1.png") -340px -36px no-repeat;
+}
+/*ICONS END*/
+
+/*BG-1*/
+.bg-1 {
+    background: #212121 url("../img/layer_1.png") center no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: #b9b9b9 !important;
+}
+.text-bold {
+    font-weight: bold;
+}
+.text-green-blue {
+    color: #1abc9c;
+}
+
+p {
+    font-size: 18px;
+}
+
+.bg-1__heading {
+    font: 70px bold;
+    padding-top: 137px;
+}
+
+.bg-1-button {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.bg-1-button:hover {
+    background: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+/*BG-1 END*/
+
+/*BG-2*/
+.bg-2__heading {
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.bg-2__content {
+    padding: 0;
+    padding-bottom: 20px;
+    line-height: 2;
+}
+
+blockquote {
+    padding-top: 50px;
+    font-size: 23px;
+    font-style: italic;
+    color: #bfbfbf;
+}
+
+.mac {
+    padding-bottom: 25px;
+}
+/*BG-2 END*/
+
+/*BG-3*/
+.bg-3 {
+    background: url("../img/layer-3.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.bg-3__heading {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.bg-3__heading--big {
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    border-right: 2px solid white;
+    padding-right: 20px;
+
+}
+
+.bg-3__heading--small {
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 13px;
+}
+
+.bg-3__heading-2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;;
+}
+
+.bg-3__content-2 {
+    font-size:14px;
+    line-height: 2;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+/*BG-3* END/
+
+/*PORTFOLIO*/
+
+.filterr {
+    background: #1abc9c;
+    font-size: 18px;
+    display: inline-block;
+    padding: 6px 7px 6px 10px;
+    margin-top: 7px;
+    position: relative;
+}
+
+.portfolio__img {
+    height: 220px;
+    background-repeat: no-repeat !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio__img-1 {
+    background: url("../img/portfolio-1.png");
+}
+.portfolio__img-2 {
+    background: url("../img/portfolio-2.png");
+}
+
+.portfolio__img-3 {
+    background: url("../img/portfolio-3.png");
+}
+
+.portfolio__img-4 {
+    background: url("../img/portfolio-4.png");
+
+}
+.portfolio__img-5 {
+    background: url("../img/portfolio-5.png");
+}
+
+.portfolio__img-6 {
+    background: url("../img/portfolio-6.png");
+}
+
+.portfolio__img-1:hover {
+    background-image: url("../img/portfolio-2-cover.png"), url("../img/portfolio-1.png");
+    background-size: cover;
+}
+
+.portfolio__img-2:hover {
+    background-image: url("../img/portfolio-2-cover.png"), url("../img/portfolio-2.png");
+
+}
+
+.portfolio__img-3:hover {
+    background-image: url("../img/portfolio-2-cover.png"), url("../img/portfolio-3.png");
+}
+
+.portfolio__img-4:hover {
+    background-image: url("../img/portfolio-2-cover.png"), url("../img/portfolio-4.png");
+}
+
+.portfolio__img-5:hover {
+    background-image: url("../img/portfolio-2-cover.png"), url("../img/portfolio-5.png");
+}
+
+.portfolio__img-6:hover {
+    background-image: url("../img/portfolio-2-cover.png"), url("../img/portfolio-6.png");
+}
+
+.portfolio .container {
+    padding-bottom: 100px;
+}
+
+/*PORTFOLIO END*/
+
+/*FORM*/
+
+.bg-form {
+    background: url("../img/layer-form.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.bg-form-context {
+    line-height: 2;
+    padding-bottom: 30px;
+    font-weight: 100 !important;
+}
+
+.form__input {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+input:hover,
+textarea:hover {
+    border: 1px solid #1abc9c;
+}
+
+textarea {
+    margin-bottom: 0 !important;
+}
+/*FORM END*/
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.pad-0 {
+    padding: 0;
+}
